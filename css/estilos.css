@@ -5,7 +5,7 @@ body {
 }
 
 #container {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     color: rgb(43, 42, 40);
     font-size: 16px;
     margin: 0;
