@@ -2,17 +2,39 @@ body {
     text-align: left;
     font-family: 'Courier New', Courier, monospace;
     color: rgb(48, 46, 44);
+}
+
+#container {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(43, 42, 40);
     font-size: 16px;
     margin: 0;
     padding: 0;
 }
-#container {s
+
+#cabecera {
+    background: #33a;
+    color: #fff;
+    font-weight: bold;
+    filter: drop-shadow(5px 5px 67px #000);
+    margin: 0;
+    padding: 0.5em;
+}
+#cabecera #tagline {
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+#container {
     width: 70%;
-    padding: 1em;
+    padding: 0;
     text-align: left;
     border: 1px solid #ddd;
     margin: 0 auto;
 }
 #container h1 { 
     font-size: 20px;
+}
+#post {
+    padding: 1em;
 }
